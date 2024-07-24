@@ -1,9 +1,15 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(101, 51%, 78%);
+} */
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: hsl(101, 41%, 72%);
   }
   
   li {
@@ -19,10 +25,33 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: hsl(101, 16%, 47%);
   }
 
 img {
     border-radius: 10px;
     border: 15px orange solid;
+}
+
+h1 {
+  font-style: oblique;
+}
+
+h2 {
+  color: brown;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+} 
+
+#bg {
+  background-color: hsl(101, 51%, 78%);
+  margin: 0;
+  padding: 0;
 }
