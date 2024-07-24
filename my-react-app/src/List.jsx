@@ -12,11 +12,15 @@ function List() {
     // fruits.sort((a,b) => a.name.localeCompare(b.name)); // Sort alphabetically
     // fruits.sort((a,b) => b.name.localeCompare(a.name));  // Sort reverse alphabetically
     // fruits.sort((a,b) => a.calories - b.calories); // Calories increasing
-    fruits.sort((a,b) => b.calories - a.calories); // Calories decreasing
+    // fruits.sort((a,b) => b.calories - a.calories); // Calories decreasing
 
-    const listItems = fruits.map(fruit => <li key={fruit.id}>
-                                            {fruit.name}: &nbsp; 
-                                            <b>{fruit.calories}</b></li>);
+    // const lowCalFruits = fruits.filter(fruit => fruit.calories < 100); Select all low calorie fruit
+
+    const highCalFruits = fruits.filter(fruit => fruit.calories >= 100);
+
+    const listItems = highCalFruits.map(highCalFruit => <li key={highCalFruit.id}>
+                                            {highCalFruit.name}: &nbsp; 
+                                            <b>{highCalFruit.calories}</b></li>);
 
     return(
         <ul>{listItems}</ul>
