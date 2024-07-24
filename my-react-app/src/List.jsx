@@ -1,29 +1,19 @@
 
-function List() {
+function List(props) {
 
-    const fruits = [
-         {id: 1, name: "apple", calories: 95},
-         {id: 2, name: "orange", calories: 45}, 
-         {id: 3, name: "banana", calories: 105}, 
-         {id: 4, name: "coconut", calories: 159}, 
-         {id: 5, name: "pineapple", calories: 37}
-        ];
+    const category = props.category;
 
-    // fruits.sort((a,b) => a.name.localeCompare(b.name)); // Sort alphabetically
-    // fruits.sort((a,b) => b.name.localeCompare(a.name));  // Sort reverse alphabetically
-    // fruits.sort((a,b) => a.calories - b.calories); // Calories increasing
-    // fruits.sort((a,b) => b.calories - a.calories); // Calories decreasing
+    const itemList = props.items;
 
-    // const lowCalFruits = fruits.filter(fruit => fruit.calories < 100); Select all low calorie fruit
-
-    const highCalFruits = fruits.filter(fruit => fruit.calories >= 100);
-
-    const listItems = highCalFruits.map(highCalFruit => <li key={highCalFruit.id}>
-                                            {highCalFruit.name}: &nbsp; 
-                                            <b>{highCalFruit.calories}</b></li>);
+    const listItems = itemList.map(item => <li key={item.id}>
+                                            {item.name}: &nbsp; 
+                                            <b>{item.calories}</b></li>);
 
     return(
-        <ul>{listItems}</ul>
+        <>
+            <h3 className="list-category">{category}</h3>
+            <ul className="list-items">{listItems}</ul>
+        </>
     );
 
 }
