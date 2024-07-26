@@ -1,10 +1,10 @@
-import ColourPicker from "./ColourPicker";
+import Counter from "./Counter";
 
 function App() {
 
   return(
     <>
-      <ColourPicker />
+      <Counter />
     </>
   );
 }
