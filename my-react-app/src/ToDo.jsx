@@ -27,6 +27,7 @@ function ToDo() {
         </ul>
         <input type="text" id="taskInput" placeholder='Enter your task here'/><br />
         <button className="add-button" type="button" onClick={handleAddTask}>Add Task</button>
+        <p>(Click an item to delete it)</p>
     </div>
   )
 }

@@ -3,15 +3,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.todo-container li {
-    list-style-type: none;
-}
-
 .todo-display {
     font-size: 1em;
-    margin 0;
+    margin: 0;
     padding: 0;
+    width: auto;
 }
+
+.todo-display li {
+    background-color: yellow;
+}
+
+.todo-display li:hover {
+    background-color: #ec4343;
+    text-decoration: line-through;
+}
+
+
 
 .add-button {
     width: 150px;
