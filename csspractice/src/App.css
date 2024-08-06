@@ -1,42 +1,63 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* variables */
+:root{
+  --primary: #A91D3A;
+  --secondary: #C73659;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+/* reset */
+body,p,a,ul,li{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+li{
+  list-style-type: none;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* base styles */
+/* Site-wide styling is in the index CSS file! */
+.btn-start {
+  width: 265px;
+  height: 87px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.btn-cuisine {
+  width: 356px;
+  height: 87px;
 }
 
-.card {
-  padding: 2em;
+.btn-budget {
+  width: 356px;
+  height: 140px;
+}
+.btn-location {
+  width: 356px;
+  height: 69px;
+}
+.btn-home {
+  width: 60px;
+  height: 60px;
+}
+.btn-info {
+  width: 60px;
+  height: 60px;
 }
 
-.read-the-docs {
-  color: #888;
+/* fonts */
+
+/* mobile styles */
+
+/* small tablet styles */
+@media screen and (min-width: 620px){
+  
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px){
+
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px){
+
 }
