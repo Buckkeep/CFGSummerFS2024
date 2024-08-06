@@ -1,0 +1,25 @@
+#btn {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 35px;
+}
+
+#btn:hover {
+    color: black;
+    background-color: white;
+}
+
+#btn2 {
+    color: rgb(229, 253, 88);
+    background-color: rgb(41, 116, 116);
+    font-weight: bold;
+    display: inline;
+    text-decoration: none;
+    padding: 10px 35px;
+}
+
+#btn2:hover {
+    color: rgb(41, 116, 116);
+    background-color: rgb(229, 253, 88);
+}
