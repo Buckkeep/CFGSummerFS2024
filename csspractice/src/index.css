@@ -55,6 +55,13 @@ body * {
 }
 
 /* mobile styles */
+/* Add margin occupying 2% L-R */
+.btn {
+  margin: 2rem 2%;
+}
+.btn-start {
+  margin: 2rem 15%;
+}
 
 /* small tablet styles */
 @media screen and (min-width: 620px) {
