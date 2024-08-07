@@ -19,20 +19,24 @@ li{
 .btn-start {
   width: 265px;
   height: 87px;
+  font-size: 3rem;
 }
 
 .btn-cuisine {
   width: 356px;
   height: 87px;
+  font-size: 2.5rem;
 }
 
 .btn-budget {
   width: 356px;
   height: 140px;
+  font-size: 2.5rem;
 }
 .btn-location {
   width: 356px;
   height: 69px;
+  font-size: 2.5rem;
 }
 .btn-home {
   width: 60px;

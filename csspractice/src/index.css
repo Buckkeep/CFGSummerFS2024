@@ -43,9 +43,14 @@ body {
 }
 
 /* fonts */
+/* .stylish-regular {
+  font-family: "Stylish", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
 body * {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Stylish";
   color: var(--textcol);
 }
 
